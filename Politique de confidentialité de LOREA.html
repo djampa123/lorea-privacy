@@ -1,16 +1,73 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Politique de confidentialité - LOREA</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Politique de confidentialité - LOREA</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #6b7280, #1e3a8a);
+        }
+    </style>
 </head>
-<body>
-  <h1>Politique de confidentialité de LOREA</h1>
-  <p><strong>Dernière mise à jour :</strong> 20 juillet 2025</p>
-  <p>LOREA aide les étudiants à préparer des concours en permettant l'upload de documents vers Google Drive.</p>
-  <p>Nous accédons uniquement aux fichiers nécessaires pour cette fonctionnalité, avec votre consentement.</p>
-  <p>Vos données ne sont pas partagées avec des tiers et sont protégées par des mesures de sécurité standard.</p>
-  <p><strong>Contact :</strong> support@lorea.app</p>
+<body class="min-h-screen bg-gray-100 flex flex-col">
+    <!-- Header -->
+    <header class="gradient-bg text-white py-6">
+        <div class="container mx-auto px-4">
+            <h1 class="text-3xl font-bold">LOREA</h1>
+            <p class="text-lg">Votre compagnon pour la préparation aux concours</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-12 flex-grow">
+        <section class="bg-white shadow-lg rounded-lg p-8 max-w-3xl mx-auto">
+            <h2 class="text-2xl font-semibold text-gray-800 mb-4">Politique de confidentialité</h2>
+            <p class="text-gray-600 mb-4"><strong>Dernière mise à jour : 20 juillet 2025</strong></p>
+            
+            <p class="text-gray-600 mb-4">
+                LOREA est une application conçue pour aider les étudiants à préparer des concours en permettant l'upload de documents pédagogiques (comme des fiches de révision, des exercices ou des PDF) vers Google Drive. Nous nous engageons à protéger vos données et à respecter votre vie privée.
+            </p>
+
+            <h3 class="text-xl font-semibold text-gray-800 mt-6 mb-2">1. Données collectées</h3>
+            <p class="text-gray-600 mb-4">
+                LOREA accède uniquement aux fichiers que vous choisissez d'uploader vers Google Drive, avec votre consentement explicite via le flux d'autorisation OAuth de Google. Nous ne collectons aucune autre donnée personnelle sans votre permission.
+            </p>
+
+            <h3 class="text-xl font-semibold text-gray-800 mt-6 mb-2">2. Utilisation des données</h3>
+            <p class="text-gray-600 mb-4">
+                Les fichiers uploadés sont utilisés exclusivement pour faciliter votre préparation aux concours. Ils sont stockés dans votre Google Drive et ne sont pas partagés avec des tiers, sauf si vous choisissez de les partager via les fonctionnalités de Google Drive.
+            </p>
+
+            <h3 class="text-xl font-semibold text-gray-800 mt-6 mb-2">3. Sécurité des données</h3>
+            <p class="text-gray-600 mb-4">
+                Nous utilisons des protocoles sécurisés (HTTPS et OAuth 2.0) pour protéger vos données lors de leur transmission. LOREA ne stocke pas vos fichiers sur ses propres serveurs ; ils sont gérés directement par Google Drive.
+            </p>
+
+            <h3 class="text-xl font-semibold text-gray-800 mt-6 mb-2">4. Vos droits</h3>
+            <p class="text-gray-600 mb-4">
+                Vous pouvez à tout moment révoquer l'accès de LOREA à votre Google Drive via les paramètres de votre compte Google. Vous contrôlez vos fichiers et pouvez les supprimer ou les gérer directement dans Google Drive.
+            </p>
+
+            <h3 class="text-xl font-semibold text-gray-800 mt-6 mb-2">5. Contact</h3>
+            <p class="text-gray-600 mb-4">
+                Pour toute question concernant cette politique de confidentialité ou l'utilisation de LOREA, contactez-nous à <a href="mailto:support@lorea.app" class="text-blue-600 hover:underline">anicet.djampa@facsciences-uy1.cm ou vous pouvez ecrire au numero 693479485 via whatsapp</a>.
+            </p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2025 LOREA. Tous droits réservés.</p>
+            <p class="mt-2">
+                <a href="https://djampa123.github.io/lorea-terms/" class="text-blue-300 hover:underline">Conditions d'utilisation</a>
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
